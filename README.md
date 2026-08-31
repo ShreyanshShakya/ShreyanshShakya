@@ -23,7 +23,7 @@ My work spans **machine learning, deep learning, computer vision, NLP, feature e
 
 ## 🛠️ Tech Stack
 
-**Languages:** Python, Java, SQL, C/C++
+**Languages:** Python, Java, SQL
 
 **Machine Learning:** Scikit-learn, XGBoost, ensemble methods, feature engineering
 
