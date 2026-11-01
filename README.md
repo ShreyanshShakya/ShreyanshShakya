@@ -67,9 +67,6 @@ My work spans machine learning, deep learning, computer vision, speech processin
   <a href="https://github.com/ShreyanshShakya">
     <img src="https://img.shields.io/badge/GitHub-Profile-080c14?style=for-the-badge&logo=github&logoColor=f1f5f9" alt="GitHub"/>
   </a>
-  <a href="https://www.linkedin.com/in/shreyansh-shakya/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-080c14?style=for-the-badge&logo=linkedin&logoColor=a78bfa" alt="LinkedIn"/>
-  </a>
 
 </div>
 
