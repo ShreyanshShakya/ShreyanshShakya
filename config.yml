@@ -1,0 +1,110 @@
+# Galaxy Profile configuration for Shreyansh Shakya
+# Generator: https://github.com/vinimlo/galaxy-profile (GPL-3.0)
+
+username: "ShreyanshShakya"
+
+profile:
+  name: "Shreyansh Shakya"
+  tagline: "AI/ML Engineer | Building Intelligent Systems"
+  location: "India"
+  bio: |
+    Exploring machine learning, deep learning, computer vision,
+    speech processing, and distributed AI systems.
+  philosophy: '"Turning research and data into practical intelligent systems."'
+
+social:
+  website: "https://shreyanshshakya.github.io"
+
+galaxy_arms:
+  - name: "Machine Learning"
+    items:
+      - "Python"
+      - "Scikit-learn"
+      - "XGBoost"
+      - "CatBoost"
+      - "LightGBM"
+      - "Feature Engineering"
+    repos:
+      - "Weather-Prediction"
+      - "MLProject"
+      - "PythonProject-Diabetes"
+      - "Employee_sentiment_analysis"
+
+  - name: "Deep Learning"
+    items:
+      - "PyTorch"
+      - "TensorFlow"
+      - "Keras"
+      - "CNN"
+      - "3D U-Net"
+      - "EfficientNet"
+      - "librosa"
+      - "MFCC"
+    repos:
+      - "EmotionRecognition"
+      - "Brain-Tumor-Segmentation-using-3D-U-Net-Architectures"
+
+  - name: "AI Systems"
+    items:
+      - "FastAPI"
+      - "Docker"
+      - "Distributed Training"
+      - "LLM Agents"
+      - "SQL"
+      - "SQLite"
+    repos:
+      - "Distributed-ML-Training"
+      - "Aster"
+      - "Aster_AI-Research-Scientist"
+      - "agentforge"
+      - "personal-coding-assistant"
+
+  - name: "Applied Engineering"
+    items:
+      - "Java"
+      - "SQL"
+      - "REST APIs"
+      - "Git"
+      - "Linux"
+    repos:
+      - "Traffic-Demand-Prediction---GridLock-Hackathon2026"
+      - "Smart-Workforce-Management-System"
+      - "Optimus"
+
+projects:
+  - repo: "ShreyanshShakya/Brain-Tumor-Segmentation-using-3D-U-Net-Architectures"
+    arm: 1
+    description: "3D brain MRI segmentation using U-Net architectures and deep learning."
+
+  - repo: "ShreyanshShakya/Weather-Prediction"
+    arm: 0
+    description: "Large-scale weather prediction using city-specific machine learning models."
+
+  - repo: "ShreyanshShakya/EmotionRecognition"
+    arm: 1
+    description: "Speech emotion recognition using audio features and deep learning."
+
+  - repo: "ShreyanshShakya/Distributed-ML-Training"
+    arm: 2
+    description: "Distributed machine learning training across heterogeneous compute nodes."
+
+theme:
+  dark: "deep-sky"
+  light: "deep-sky"
+
+motion: true
+
+stats:
+  metrics:
+    - "commits"
+    - "stars"
+    - "prs"
+    - "repos"
+
+languages:
+  exclude:
+    - "HTML"
+    - "CSS"
+    - "Shell"
+    - "Makefile"
+  max_display: 8
