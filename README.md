@@ -1,49 +1,80 @@
-# Hi, I'm Shreyansh Shakya 👋
+<div align="center">
 
-### Machine Learning Engineer | AI & Deep Learning Enthusiast
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/generated/galaxy-header-mobile-light.svg">
+    <source media="(max-width: 600px)" srcset="./assets/generated/galaxy-header-mobile.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/generated/galaxy-header-light.svg">
+    <img src="./assets/generated/galaxy-header.svg" width="850" alt="A galaxy drawn from my public repositories, grouped around my areas of focus">
+  </picture>
 
-I'm a final-year Computer Science & Engineering student at VIT Bhopal University, focused on building practical machine learning and AI systems.
+</div>
 
-My work spans **machine learning, deep learning, computer vision, NLP, feature engineering, and data-driven software systems**. I enjoy taking problems from data preprocessing and experimentation to model development, evaluation, and deployment.
+<br/>
 
-## 🔬 Areas of Focus
+<div align="center">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/generated/stats-card-mobile-light.svg">
+    <source media="(max-width: 600px)" srcset="./assets/generated/stats-card-mobile.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/generated/stats-card-light.svg">
+    <img src="./assets/generated/stats-card.svg" width="850" alt="My GitHub contributions over the last year">
+  </picture>
+</div>
 
-- **Machine Learning:** Supervised learning, ensemble learning, model evaluation, feature engineering
-- **Deep Learning:** CNNs, U-Net architectures, transfer learning, representation learning
-- **Computer Vision:** Image segmentation, medical image analysis, image preprocessing
-- **AI Systems:** Retrieval-augmented generation, multimodal workflows, AI-powered applications
-- **Data & Systems:** SQL, databases, data processing, APIs, and software engineering fundamentals
+<br/>
 
-## 🚀 Featured Work
+<div align="center">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/generated/tech-stack-mobile-light.svg">
+    <source media="(max-width: 600px)" srcset="./assets/generated/tech-stack-mobile.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/generated/tech-stack-light.svg">
+    <img src="./assets/generated/tech-stack.svg" width="850" alt="Languages detected from my public repositories and my declared technical stack">
+  </picture>
+</div>
 
-- **Brain MRI Segmentation** — Deep learning pipeline for medical image segmentation using U-Net-based architectures.
-- **Speech Emotion Recognition** — Audio classification pipeline involving signal preprocessing and deep learning.
-- **Weather Prediction** — Machine learning workflow for prediction from structured environmental data.
-- **AI / Research Systems** — Experiments involving evidence retrieval, claim verification, and AI-assisted information processing.
+<br/>
 
-## 🛠️ Tech Stack
+<div align="center">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/generated/projects-constellation-mobile-light.svg">
+    <source media="(max-width: 600px)" srcset="./assets/generated/projects-constellation-mobile.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/generated/projects-constellation-light.svg">
+    <img src="./assets/generated/projects-constellation.svg" width="850" alt="Selected AI, machine learning and engineering projects">
+  </picture>
+</div>
 
-**Languages:** Python, Java, SQL
+<br/>
 
-**Machine Learning:** Scikit-learn, XGBoost, ensemble methods, feature engineering
+<details>
+<summary><strong>About me</strong></summary>
 
-**Deep Learning:** PyTorch, TensorFlow, Keras, CNNs, U-Net
+<br/>
 
-**Data & Tools:** NumPy, Pandas, Matplotlib, Git, GitHub, Jupyter
+I'm Shreyansh Shakya, a Computer Science and Engineering student at VIT Bhopal University focused on building practical AI and machine learning systems.
 
-**Development:** REST APIs, databases, Docker, CI/CD
+My work spans machine learning, deep learning, computer vision, speech processing, and distributed AI infrastructure. I enjoy taking projects from data preparation and experimentation through model development, evaluation, and deployment.
 
-## 📌 Currently
+**Currently focused on:** production-oriented AI/ML systems, distributed training, and applied research.
 
-- Strengthening my foundations in machine learning and deep learning
-- Building production-oriented AI/ML projects
-- Preparing for software and machine learning engineering opportunities
+</details>
 
-## 🌐 Connect
+<br/>
 
-- **Portfolio:** [shreyanshshakya.github.io](https://shreyanshshakya.github.io)
-- **GitHub:** [@ShreyanshShakya](https://github.com/ShreyanshShakya)
+<div align="center">
 
----
+  <a href="https://shreyanshshakya.github.io/">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-080c14?style=for-the-badge&logo=googlechrome&logoColor=00d4ff" alt="Portfolio"/>
+  </a>
+  <a href="https://github.com/ShreyanshShakya">
+    <img src="https://img.shields.io/badge/GitHub-Profile-080c14?style=for-the-badge&logo=github&logoColor=f1f5f9" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/shreyansh-shakya/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-080c14?style=for-the-badge&logo=linkedin&logoColor=a78bfa" alt="LinkedIn"/>
+  </a>
 
-⭐ Feel free to explore my repositories and projects.
+</div>
+
+<br/>
+
+<div align="center">
+  <sub>Built with <a href="https://github.com/vinimlo/galaxy-profile">Galaxy Profile</a> · Generated from public GitHub activity</sub>
+</div>
