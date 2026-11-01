@@ -1,0 +1,55 @@
+name: Generate Galaxy Profile
+
+on:
+  schedule:
+    - cron: "17 */12 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "config.yml"
+      - ".github/workflows/generate-profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: galaxy-profile
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    name: Generate personalised profile SVGs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Fetch Galaxy Profile generator
+        run: |
+          git clone --depth 1 https://github.com/vinimlo/galaxy-profile.git /tmp/galaxy-profile
+          cp -R /tmp/galaxy-profile/generator ./generator
+          cp /tmp/galaxy-profile/requirements.txt ./requirements-galaxy.txt
+
+      - name: Install generator dependencies
+        run: python -m pip install -r requirements-galaxy.txt
+
+      - name: Generate profile assets from live GitHub data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m generator.main
+
+      - name: Commit generated assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/generated/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh galaxy profile assets [skip ci]"
+            git push
+          fi
